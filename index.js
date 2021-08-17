@@ -57,7 +57,7 @@ const questions = [{
     name: 'filename',
     message: 'Masukan nama file',
     default () {
-        return `${new Date().valueOf()}-dump.txt`;
+        return `${new Date().toJSON()}-dump`;
     }
 }, {
     type: 'list',
